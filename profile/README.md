@@ -13,6 +13,6 @@ We aim to use [NextCloud](https://nextcloud.com/) as a backend since it already 
 | Nils Tesch| @hm.edu |
 
 ## 🔗 Links:
-#### [📁 Issue Board])
-#### [🏆 Milestones]()
+#### [📁 Issue Board](https://github.com/orgs/lern-fair-file-sharing/projects/2)
+#### [🏆 Milestones](https://github.com/lern-fair-file-sharing/backend/milestones)
  
