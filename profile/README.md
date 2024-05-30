@@ -8,7 +8,7 @@ We aim to use [NextCloud](https://nextcloud.com/) as a backend since it already 
 | name | email |
 | :------------- |:------------- |
 | Sissi Zhou | @hm.edu | 
-| Markus Schnugg | @hm.edu |
+| Markus Schnugg | schnugg@hm.edu |
 | Theodor Peifer | peifer@hm.edu |
 | Nils Tesch| @hm.edu |
 
