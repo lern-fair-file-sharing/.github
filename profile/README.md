@@ -7,7 +7,7 @@ We aim to use [NextCloud](https://nextcloud.com/) as a backend since it already 
 ## 👥 Our Team:
 | name | email |
 | :------------- |:------------- |
-| Sissi Zhou | @hm.edu | 
+| Sissi Zhou | zhou@hm.edu | 
 | Markus Schnugg | schnugg@hm.edu |
 | Theodor Peifer | peifer@hm.edu |
 | Nils Tesch| @hm.edu |
