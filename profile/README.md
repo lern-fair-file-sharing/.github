@@ -10,7 +10,7 @@ We aim to use [NextCloud](https://nextcloud.com/) as a backend since it already 
 | Sissi Zhou | zhou@hm.edu | 
 | Markus Schnugg | schnugg@hm.edu |
 | Theodor Peifer | peifer@hm.edu |
-| Nils Tesch| @hm.edu |
+| Nils Tesch| tesch@hm.edu |
 
 ## 🔗 Links:
 #### 📁 Issue Board: [here](https://github.com/orgs/lern-fair-file-sharing/projects/2)
