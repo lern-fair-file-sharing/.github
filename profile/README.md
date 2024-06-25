@@ -15,3 +15,7 @@ We aim to use [NextCloud](https://nextcloud.com/) as a backend since it already 
 ## 🔗 Links:
 #### 📁 Issue Board: [here](https://github.com/orgs/lern-fair-file-sharing/projects/2)
 #### 🏆 Milestones: [app](https://github.com/lern-fair-file-sharing/app/milestones) and [backend](https://github.com/lern-fair-file-sharing/backend/milestones)
+
+---
+
+###### Original Logo (modified): https://de.wikipedia.org/wiki/Datei:Logo_Lern-Fair.png, by Kaiya Reisch
