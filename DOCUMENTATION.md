@@ -14,6 +14,8 @@ Since our goal wasn't to integrate authentication but just to demonstrate the fi
 ## 1️⃣ Setup backend
 Our backend consists of a Nextcloud instance, a Postgres database and Redis caching database.
 
+## ⚠️ Warning: This container does not run on Windows. Windows Users should [install WSL2](https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-containers)
+
 ### 🛠️ Setup Instructions
 #### 1. Clone the Repository
 First, clone the repository to your local machine using the following command:
