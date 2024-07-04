@@ -52,6 +52,9 @@ You can visit NextCloud at [http://localhost:8080](http://localhost:8080) (or wh
    
 #### 2. Initialize examplary folder structure:
 Our application requires a specific folder structure which contains dummy files (see [./initial-setup/example-folder-structure/](https://github.com/lern-fair-file-sharing/backend/tree/master/inital-setup/example-folder-structure)). To create it execute the script [initialization.py](https://github.com/lern-fair-file-sharing/backend/blob/master/initialization.py). Make sure you have the [requests](https://pypi.org/project/requests/) package installed.
+```bash
+python ./initialization.py
+```
 
 As long as you don't delete the container and volumes, you don't have to do these steps everytime you want to use this. Just start docker and the backend will start automatically. But if you need to reset the NextCloud instance use the following command:
 ```bash
