@@ -1,6 +1,6 @@
 # 🎓 Lern-Fair File Sharing Documentation 🚀
 
-The following is the documentation for setting up this project, which consists of a NextCloud backend and React Native frontend.
+The following is the documentation for setting up this project, which consists of a Nextcloud backend and a React Native frontend.
 
 ## 💡 What can you expect from this application?
 The app will show a mocked [Lern-fair](https://www.lern-fair.de/) mobile app. The goal is to demonstrate how a file system can be integrated into the app to store, sort and filter files based on in which course chat they were uploaded.
@@ -9,7 +9,7 @@ folders with the names of courses in which the testuser is enrolled (these are d
 When you click on a course you will see a chat which can be used to upload files. These uploaded files will land in the corresponding folder inside the "Dateien" tab. You can also upload files independently of courses
 by using the "Persönliche Ablage" folder.
 
-Since our goal wasn't to integrate authentication but just to demonstrate the file sharing capability, everything runs over a single test-user which authentication is hardcoded via a ``.env`` in the frontend.
+Since our goal wasn't to integrate authentication but just to demonstrate the file sharing capability, everything runs over a single test user and authentication is hard-coded via a ``.env`` in the frontend.
 
 ## 1️⃣ Setup backend
 Our backend consists of a Nextcloud instance, a Postgres database and Redis caching database.
@@ -24,39 +24,39 @@ git clone https://github.com/lern-fair-file-sharing/backend
 cd backend
 ```
 
-#### 2. Configure envrionment variables
+#### 2. Configure environment variables
 Create a .env file with the following variables:
 ```
 NCUSR=<nextcloud-user>
 NCPW=<nextcloud-password>
 ```
-An examplary .env file is included, but pleae don't use this in a production environment.
+An exemplary .env file is included, but please don't use this in a production environment.
 
-#### 3. Set NextCloud secrets
-Inside the ``./secrets/`` folder create the following files:
-- ``nextcloud_admin_password.txt``: In here put the admin password
-- ``nextcloud_admin_user.txt``: In here put the admin user name
-- ``postgres_db.txt``: In here put the database name "postgresdb"
-- ``postgres_password.txt``: In here put the postgres user password
-- ``postgres_user.txt``: In here simply the postgres user name
+#### 3. Set Nextcloud secrets
+Inside the ``./secrets/`` folder, create the following files:
+- ``nextcloud_admin_password.txt``: In here, put the admin password
+- ``nextcloud_admin_user.txt``: In here, put the admin username
+- ``postgres_db.txt``: In here, put the database name "postgresdb"
+- ``postgres_password.txt``: In here, put the postgres user password
+- ``postgres_user.txt``: In here, simply put the postgres username
 
-Examplary secrets are included, but pleae don't use them in a production environment.
+Exemplary secrets are included, but please don't use them in a production environment.
 
 ### 🚀 Run backend
 #### 1. Start containers:
 ```bash
 docker compose up
 ```
-After this the NextCloud instance will be starting and the admin user automatically created.
-You can visit NextCloud at [http://localhost:8080](http://localhost:8080) (or whatever port you specified) and register as the admin.
+After this, the Nextcloud instance will start, and the admin user will automatically be created.
+You can visit Nextcloud at [http://localhost:8080](http://localhost:8080) (or whatever port you specified) and register as the admin.
    
-#### 2. Initialize examplary folder structure:
-Our application requires a specific folder structure which contains dummy files (see [./initial-setup/example-folder-structure/](https://github.com/lern-fair-file-sharing/backend/tree/master/inital-setup/example-folder-structure)). To create it execute the script [initialization.py](https://github.com/lern-fair-file-sharing/backend/blob/master/initialization.py). Make sure you have the [requests](https://pypi.org/project/requests/) package installed.
+#### 2. Initialize exemplary folder structure:
+Our application requires a specific folder structure that contains dummy files (see [./initial-setup/example-folder-structure/](https://github.com/lern-fair-file-sharing/backend/tree/master/inital-setup/example-folder-structure)). To create it, execute the script [initialization.py](https://github.com/lern-fair-file-sharing/backend/blob/master/initialization.py). Make sure you have the [requests](https://pypi.org/project/requests/) package installed.
 ```bash
 python ./initialization.py
 ```
 
-As long as you don't delete the container and volumes, you don't have to do these steps everytime you want to use this. Just start docker and the backend will start automatically. But if you need to reset the NextCloud instance use the following command:
+As long as you don't delete the container and volumes, you don't have to do these steps every time you want to use this. Just start Docker, and the backend will start automatically. But if you need to reset the Nextcloud instance, use the following command:
 ```bash
 docker compose down -v
 ```
@@ -94,10 +94,11 @@ npm start --tunnel
 ```
 Scan the QR code.
 
-#### Option 2: Using the Anrdoid Studio Emulator
-Use Android Studio or XCode for installing a mobile emulator. If installed run the following command:
+#### Option 2: Using the Android Studio Emulator
+Use Android Studio or XCode for installing a mobile emulator. If installed, run the following command:
 ```
 npm run android
 # or
 npm run ios
 ```
+
